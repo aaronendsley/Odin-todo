@@ -19,6 +19,15 @@
 - [ ] Rebuild projects and todos through their factory functions after parsing so their methods are restored.
 - [ ] Keep application state separate from rendering and DOM code.
 
+## Module organization
+
+- [ ] Use `state.js` to own and export the main application-state object.
+- [X] Use `Project.js` for the Project factory.
+- [ ] Use `Todo.js` for the Todo factory.
+- [ ] Use `storage.js` for saving and loading `localStorage` data.
+- [ ] Use `dom.js` for rendering state and updating the interface.
+- [ ] Use `index.js` as the application entry point that initializes the app and connects the modules.
+
 ## DOM and UI
 
 - [ ] Create DOM/controller modules that read application state and render it.
