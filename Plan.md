@@ -7,7 +7,7 @@
 - [ ] Create a `Todo` factory function for title, description, due date, priority, notes, and completion status.
 - [ ] Add project methods to create, edit, delete, complete, and reorder its todos.
 - [ ] Choose a default project for new todos.
-- [ ] Install `date-fns` for formatting and manipulating todo due dates:
+- [X] Install `date-fns` for formatting and manipulating todo due dates:
   ```bash
   npm install date-fns
   ```
